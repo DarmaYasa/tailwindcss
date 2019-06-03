@@ -7551,6 +7551,26 @@ video {
   z-index: auto;
 }
 
+.bg-gradient {
+  background-image: linear-gradient(to right, #68d391, #63b3ed);
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to right, #48bb78, #4299e1);
+}
+
+.hover\:bg-gradient:hover {
+  background-image: linear-gradient(to right, #48bb78, #4299e1);
+}
+
+.active\:bg-gradient:active {
+  background-image: linear-gradient(to right, #48bb78, #4299e1);
+}
+
+.focus\:bg-gradient:focus {
+  background-image: linear-gradient(to right, #48bb78, #4299e1);
+}
+
 @media (min-width: 640px) {
   .sm\:appearance-none {
     -webkit-appearance: none;
@@ -14474,6 +14494,10 @@ video {
 
   .sm\:z-auto {
     z-index: auto;
+  }
+
+  .sm\:bg-gradient {
+    background-image: linear-gradient(to right, #68d391, #63b3ed);
   }
 }
 
@@ -21401,6 +21425,10 @@ video {
   .md\:z-auto {
     z-index: auto;
   }
+
+  .md\:bg-gradient {
+    background-image: linear-gradient(to right, #68d391, #63b3ed);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -28327,6 +28355,10 @@ video {
   .lg\:z-auto {
     z-index: auto;
   }
+
+  .lg\:bg-gradient {
+    background-image: linear-gradient(to right, #68d391, #63b3ed);
+  }
 }
 
 @media (min-width: 1280px) {
@@ -35252,5 +35284,9 @@ video {
 
   .xl\:z-auto {
     z-index: auto;
+  }
+
+  .xl\:bg-gradient {
+    background-image: linear-gradient(to right, #68d391, #63b3ed);
   }
 }
