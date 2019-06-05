@@ -1,6 +1,21 @@
 .btn {
-	@apply rounded my-2 text-blue-400 relative;
+	@apply rounded my-3 text-blue-400 relative;
+	
+	&-primary {
+		@apply btn bg-blue-400 border-blue-700 text-white py-2 px-6 ;
 
+			&:hover {
+				@apply bg-blue-500;
+				// box-shadow: inset 0px -5px 0px -3px rgba(0,121,250,1);
+			}
+
+			&:focus {
+				@apply outline-none;
+				// box-shadow: inset 0px 0px 0px -3px rgba(0,121,250,1);
+			}
+	}
+	
+	
 	&::after{
 		content: "";
 		background-color: theme('colors.blue.400');
@@ -18,18 +33,6 @@
 	}
 
 
-	&-primary {
-		@apply bg-blue-400 border-blue-700 text-white py-2 px-6 ;
-
-			&:hover {
-				@apply bg-blue-500;
-				// box-shadow: inset 0px -5px 0px -3px rgba(0,121,250,1);
-			}
-
-			&:focus {
-				@apply outline-none;
-				// box-shadow: inset 0px 0px 0px -3px rgba(0,121,250,1);
-			}
-	}
+	
 
 }
