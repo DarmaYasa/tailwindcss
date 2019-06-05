@@ -15,7 +15,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
     "laravel-mix": "^4.0.15",
+    "purgecss-webpack-plugin": "^1.5.0",
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.20.1",
     "sass-loader": "^7.1.0",
@@ -24,6 +26,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "cross-env": "^5.2.0"
+    "cross-env": "^5.2.0",
+    "glob-all": "^3.1.0"
   }
 }
