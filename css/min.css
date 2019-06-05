@@ -599,6 +599,98 @@ video {
   height: auto;
 }
 
+.bg-gradient {
+  background-image: linear-gradient(to right, #68d391, #63b3ed);
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to right, #48bb78, #4299e1);
+}
+
+.hover\:bg-gradient:hover {
+  background-image: linear-gradient(to right, #48bb78, #4299e1);
+}
+
+.active\:bg-gradient:active {
+  background-image: linear-gradient(to right, #48bb78, #4299e1);
+}
+
+.focus\:bg-gradient:focus {
+  background-image: linear-gradient(to right, #48bb78, #4299e1);
+}
+
+.media {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  background-color: #fff;
+  padding: 1.25rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .media {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.media-image {
+  margin-right: 1.5rem;
+  flex: none;
+}
+
+.media-title {
+  margin-bottom: 1.25rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.media-description {
+  font-size: 0.875rem;
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+.btn {
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #63b3ed;
+  position: relative;
+}
+
+.btn::after {
+  content: "";
+  background-color: #63b3ed;
+  width: 40%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  right: 0;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #63b3ed;
+  border-color: #2b6cb0;
+  color: #fff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #4299e1;
+}
+
+.btn-primary:focus {
+  outline: 0;
+}
+
 .container {
   width: 100%;
 }
@@ -7551,27 +7643,11 @@ video {
   z-index: auto;
 }
 
-.bg-gradient {
-  background-image: linear-gradient(to right, #68d391, #63b3ed);
-}
-
-.bg-gradient {
-  background-image: linear-gradient(to right, #48bb78, #4299e1);
-}
-
-.hover\:bg-gradient:hover {
-  background-image: linear-gradient(to right, #48bb78, #4299e1);
-}
-
-.active\:bg-gradient:active {
-  background-image: linear-gradient(to right, #48bb78, #4299e1);
-}
-
-.focus\:bg-gradient:focus {
-  background-image: linear-gradient(to right, #48bb78, #4299e1);
-}
-
 @media (min-width: 640px) {
+  .sm\:bg-gradient {
+    background-image: linear-gradient(to right, #68d391, #63b3ed);
+  }
+
   .sm\:appearance-none {
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -14495,13 +14571,13 @@ video {
   .sm\:z-auto {
     z-index: auto;
   }
-
-  .sm\:bg-gradient {
-    background-image: linear-gradient(to right, #68d391, #63b3ed);
-  }
 }
 
 @media (min-width: 768px) {
+  .md\:bg-gradient {
+    background-image: linear-gradient(to right, #68d391, #63b3ed);
+  }
+
   .md\:appearance-none {
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -21425,13 +21501,13 @@ video {
   .md\:z-auto {
     z-index: auto;
   }
-
-  .md\:bg-gradient {
-    background-image: linear-gradient(to right, #68d391, #63b3ed);
-  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:bg-gradient {
+    background-image: linear-gradient(to right, #68d391, #63b3ed);
+  }
+
   .lg\:appearance-none {
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -28355,13 +28431,13 @@ video {
   .lg\:z-auto {
     z-index: auto;
   }
-
-  .lg\:bg-gradient {
-    background-image: linear-gradient(to right, #68d391, #63b3ed);
-  }
 }
 
 @media (min-width: 1280px) {
+  .xl\:bg-gradient {
+    background-image: linear-gradient(to right, #68d391, #63b3ed);
+  }
+
   .xl\:appearance-none {
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -35284,9 +35360,5 @@ video {
 
   .xl\:z-auto {
     z-index: auto;
-  }
-
-  .xl\:bg-gradient {
-    background-image: linear-gradient(to right, #68d391, #63b3ed);
   }
 }

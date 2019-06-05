@@ -12550,10 +12550,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./src/min.js":
-/*!********************!*\
-  !*** ./src/min.js ***!
-  \********************/
+/***/ "./src/js/min.js":
+/*!***********************!*\
+  !*** ./src/js/min.js ***!
+  \***********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12572,10 +12572,10 @@ var app = new Vue({
 
 /***/ }),
 
-/***/ "./src/min.scss":
-/*!**********************!*\
-  !*** ./src/min.scss ***!
-  \**********************/
+/***/ "./src/sass/min.scss":
+/*!***************************!*\
+  !*** ./src/sass/min.scss ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12584,14 +12584,14 @@ var app = new Vue({
 /***/ }),
 
 /***/ 0:
-/*!*****************************************!*\
-  !*** multi ./src/min.js ./src/min.scss ***!
-  \*****************************************/
+/*!*************************************************!*\
+  !*** multi ./src/js/min.js ./src/sass/min.scss ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\tailwindcss\src\min.js */"./src/min.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\tailwindcss\src\min.scss */"./src/min.scss");
+__webpack_require__(/*! C:\laragon\www\tailwindcss\src\js\min.js */"./src/js/min.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\tailwindcss\src\sass\min.scss */"./src/sass/min.scss");
 
 
 /***/ })

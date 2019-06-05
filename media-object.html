@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/min.css">
+	<title>Coba Buat Media Object</title>
+</head>
+<body class="font-sans bg-gray-100">
+	<div id="app">
+	<nav class="flex justify-between items-center flex-wrap bg-gray-500 p-5 mb-5">
+		<div class="flex">
+			<a href="" class="text-gray-100 text-xl hover:text-white mr-12">Parsinta</a>
+		</div>
+		<div class="block md:hidden">
+			<button @click="toggle" class="border border-white py-2 px-3 rounded text-white hover:bg-white hover:text-black focus:outline-none">
+				<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="fill-current h-3 w-3">
+					<title>Menu</title>
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+		</div>
+		<div :class="open ? 'block' : 'hidden'" class="w-full block flex-grow md:flex text-sm md:w-auto">
+			<div class="text-sm md:flex-grow ">
+			<a href="" class="block md:inline-block text-gray-100 mt-5 md:mt-0 hover:text-white mr-6">Series</a>
+				<a href="" class="block md:inline-block text-gray-100 mt-5 md:mt-0 hover:text-white mr-6">Premium</a>
+				<a href="" class="block md:inline-block text-gray-100 mt-5 md:mt-0 hover:text-white">Search</a>
+			</div>
+			<div>
+				<a href="" class="block md:inline-block text-gray-100 mt-5 md:mt-0 hover:text-white mr-6">Login</a>
+				<a href="" class="block md:inline-block text-gray-100 mt-5 md:mt-0 hover:text-white">Register</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="flex justify-center	">
+			<div class="max-w-2xl">
+				<div class="media">
+						<div class="media-image">
+							<img width="100" class="rounded-full" src="https://www.gravatar.com/avatar/5bda7ce6ebd87237a1b85cde17bdd6c4?d=mm" alt="">
+						</div>
+						<div>
+							<h4 class="media-title">Darma Yasa</h4>
+							<div class="media-description">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vel libero architecto saepe qui, quam consequuntur sed est labore iusto!
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero a error magni. Rem temporibus quidem consectetur eaque quam necessitatibus, rerum ratione cupiditate aperiam dolor illum iste veniam voluptatem reprehenderit doloremque quisquam, debitis veritatis ea, adipisci molestiae nostrum velit. Tenetur repellendus cumque esse odio fugit, quasi vitae veniam a voluptatem exercitationem.
+							</div>
+							<button class="btn">Balas Komentar</button>
+						</div>
+				</div>
+				<div class="media">
+						<div class="media-image">
+							<img width="100" class="rounded-full" src="https://www.gravatar.com/avatar/5bda7ce6ebd87237a1b85cde17bdd6c4?d=mm" alt="">
+						</div>
+						<div>
+							<h4 class="media-title">Darma Yasa</h4>
+							<div class="media-description">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vel libero architecto saepe qui, quam consequuntur sed est labore iusto!
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero a error magni. Rem temporibus quidem consectetur eaque quam necessitatibus, rerum ratione cupiditate aperiam dolor illum iste veniam voluptatem reprehenderit doloremque quisquam, debitis veritatis ea, adipisci molestiae nostrum velit. Tenetur repellendus cumque esse odio fugit, quasi vitae veniam a voluptatem exercitationem.
+							</div>
+							<button class="btn btn-primary">Balas Komentar</button>
+						</div>
+				</div>
+				<div class="media">
+						<div class="media-image">
+							<img width="100" class="rounded-full" src="https://www.gravatar.com/avatar/5bda7ce6ebd87237a1b85cde17bdd6c4?d=mm" alt="">
+						</div>
+						<div>
+							<h4 class="media-title">Darma Yasa</h4>
+							<div class="media-description">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vel libero architecto saepe qui, quam consequuntur sed est labore iusto!
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero a error magni. Rem temporibus quidem consectetur eaque quam necessitatibus, rerum ratione cupiditate aperiam dolor illum iste veniam voluptatem reprehenderit doloremque quisquam, debitis veritatis ea, adipisci molestiae nostrum velit. Tenetur repellendus cumque esse odio fugit, quasi vitae veniam a voluptatem exercitationem.
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="js/min.js"></script>
+</body>
+</html>
