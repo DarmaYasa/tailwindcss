@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "laravel-mix": "^4.0.15",
     "purgecss-webpack-plugin": "^1.5.0",
@@ -27,6 +28,9 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "glob-all": "^3.1.0"
+    "glhd-tailwindcss-transitions": "^0.3.0",
+    "glob-all": "^3.1.0",
+    "tailwindcss-grid": "^1.2.1",
+    "tailwindcss-transforms": "^2.1.0"
   }
 }
